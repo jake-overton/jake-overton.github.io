@@ -1,0 +1,40 @@
+body {
+	background-color: #FFFFFF;
+	color: #0000FF;
+	font-size: 1.125em;
+	font-weight: normal;
+}
+
+h1 {
+	color: #0000FF;
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 2em;
+}
+
+p {
+	/* background-color: green; */
+	margin-left: 5%;
+	margin-right: 5%;
+	/* width: 40%; */
+	/* margin: auto; */
+}
+
+hr {
+	border: none;
+  border-top: dotted #a6a6a4 6px;
+  width: 4%;
+  margin: 10px auto;
+}
+
+.main-hr {
+	border-top: solid #a6a6a4 2px;
+	width: 100%;
+}
+.author {
+	/* background-color: green; */
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	padding: 1.5em 0 2em 0;
+}

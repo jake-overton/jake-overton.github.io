@@ -23,18 +23,51 @@ hr {
 	border: none;
   border-top: dotted #a6a6a4 6px;
   width: 4%;
-  margin: 10px auto;
+  margin: 0 auto 3rem;
 }
 
 .main-hr {
 	border-top: solid #a6a6a4 2px;
 	width: 100%;
 }
-.author {
+/* .author { */
 	/* background-color: green; */
-	width: 80%;
+/*	width: 80%;
 	margin: auto;
 	text-align: center;
 	font-style: italic;
-	padding: 1.5em 0 2em 0;
+	padding: 1.5rem 0 1rem 0;
+} */
+
+.box {
+/*     border: 2px solid green; */
+background-color: #efefef;
+    display: inline-table;
+    position: relative;
+    margin: 10px;
+		border-radius: 15px;
+}
+
+.author {
+  color: blue;
+  border: 2px inset #d9d9d9;
+	border-radius: 8px;
+  float: left;
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  min-width: 150px;
+}
+
+.city {
+  color: #d00;
+/*   border-right: 2px solid pink; */
+  /* float: center; */
+  font-size: .75rem;
+  margin: 0 auto;
+}
+.list {
+	margin-left: 7rem;
 }
